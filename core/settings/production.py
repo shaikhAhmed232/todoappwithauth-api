@@ -6,6 +6,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "https://todo-app-with-auth.herokuapp.com",
+    "http://localhost:3000",
 ]
 
 DATABASES = {
