@@ -11,7 +11,7 @@ CORS_ALLOWED_ORIGINS = [
 
 DATABASES = {
     'default': {
-        'ENGINE': get_variables('DATABASE_URL'),
+        'ENGINE': get_variables('ENGINE'),
         'NAME': get_variables('DB_NAME'),
         'USER': get_variables('DB_USER'),
         'PASSWORD': get_variables('DB_PASSWORD'),
